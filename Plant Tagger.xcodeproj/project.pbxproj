@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274EF9C87CF26FE4A66E7376 /* Pods_Plant_Tagger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C5B24120A374CF3DCA0FE2 /* Pods_Plant_Tagger.framework */; };
+		451107E1BD94F4EFDCCD33A0 /* Pods_Plant_TaggerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEC08DE66F285E5B6F6C251 /* Pods_Plant_TaggerTests.framework */; };
+		7634FF711FB6F78F008FF6FA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634FF701FB6F78F008FF6FA /* UserService.swift */; };
+		7634FF731FB9F56A008FF6FA /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634FF721FB9F56A008FF6FA /* MyPageViewController.swift */; };
+		7634FF751FBD7342008FF6FA /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634FF741FBD7342008FF6FA /* PlantTableViewCell.swift */; };
+		7634FF781FC47481008FF6FA /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634FF771FC47481008FF6FA /* UIImageExtension.swift */; };
+		7634FF7A1FC58699008FF6FA /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634FF791FC58699008FF6FA /* DictionaryExtension.swift */; };
 		766A50931ED9D23B00FE9F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766A50921ED9D23B00FE9F79 /* AppDelegate.swift */; };
-		766A50951ED9D23B00FE9F79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766A50941ED9D23B00FE9F79 /* ViewController.swift */; };
+		766A50951ED9D23B00FE9F79 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766A50941ED9D23B00FE9F79 /* SignUpViewController.swift */; };
 		766A50981ED9D23B00FE9F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766A50961ED9D23B00FE9F79 /* Main.storyboard */; };
 		766A509A1ED9D23B00FE9F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766A50991ED9D23B00FE9F79 /* Assets.xcassets */; };
 		766A509D1ED9D23B00FE9F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766A509B1ED9D23B00FE9F79 /* LaunchScreen.storyboard */; };
 		766A50A81ED9D23B00FE9F79 /* Plant_TaggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766A50A71ED9D23B00FE9F79 /* Plant_TaggerTests.swift */; };
 		766A50B31ED9D23B00FE9F79 /* Plant_TaggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766A50B21ED9D23B00FE9F79 /* Plant_TaggerUITests.swift */; };
+		766A50C11EDEA7EC00FE9F79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 766A50C01EDEA7EC00FE9F79 /* GoogleService-Info.plist */; };
+		766A50C21EDEB3FC00FE9F79 /* Pods_Plant_Tagger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C5B24120A374CF3DCA0FE2 /* Pods_Plant_Tagger.framework */; };
+		766A50C31EDEB3FC00FE9F79 /* Pods_Plant_Tagger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5C5B24120A374CF3DCA0FE2 /* Pods_Plant_Tagger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76CF05821F965F9F0094462E /* BaseUIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF05811F965F9F0094462E /* BaseUIService.swift */; };
+		76D56BF41F97459700542B33 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D56BF31F97459700542B33 /* BaseUIViewController.swift */; };
+		76E55E9A1F5A67C000AF4B4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E55E991F5A67C000AF4B4E /* LoginViewController.swift */; };
+		76E55E9C1F63DDFE00AF4B4E /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E55E9B1F63DDFE00AF4B4E /* DesignableTextView.swift */; };
+		76E55E9E1F6401C300AF4B4E /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E55E9D1F6401C300AF4B4E /* RegistrationService.swift */; };
+		76F5E2851F7AAB0600D887DC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2841F7AAB0600D887DC /* BaseAPI.swift */; };
+		76F5E2871F8A571400D887DC /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E2861F8A571400D887DC /* AuthenticationService.swift */; };
+		AF1B0E8B1F58FA77D34C1204 /* Pods_Plant_TaggerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04766D8806E26528BE7E9661 /* Pods_Plant_TaggerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +51,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		766A50C41EDEB3FC00FE9F79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				766A50C31EDEB3FC00FE9F79 /* Pods_Plant_Tagger.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04766D8806E26528BE7E9661 /* Pods_Plant_TaggerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plant_TaggerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE69722CEACCCE3E48D387F /* Pods-Plant Tagger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Tagger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plant Tagger/Pods-Plant Tagger.debug.xcconfig"; sourceTree = "<group>"; };
+		2CEC08DE66F285E5B6F6C251 /* Pods_Plant_TaggerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plant_TaggerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664257C726A2B8F697C38C00 /* Pods-Plant TaggerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant TaggerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plant TaggerTests/Pods-Plant TaggerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7634FF701FB6F78F008FF6FA /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		7634FF721FB9F56A008FF6FA /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		7634FF741FBD7342008FF6FA /* PlantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		7634FF771FC47481008FF6FA /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		7634FF791FC58699008FF6FA /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		766A508F1ED9D23B00FE9F79 /* Plant Tagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plant Tagger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		766A50921ED9D23B00FE9F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		766A50941ED9D23B00FE9F79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		766A50941ED9D23B00FE9F79 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		766A50971ED9D23B00FE9F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		766A50991ED9D23B00FE9F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766A509C1ED9D23B00FE9F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +88,20 @@
 		766A50AE1ED9D23B00FE9F79 /* Plant TaggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plant TaggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		766A50B21ED9D23B00FE9F79 /* Plant_TaggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant_TaggerUITests.swift; sourceTree = "<group>"; };
 		766A50B41ED9D23B00FE9F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766A50C01EDEA7EC00FE9F79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76CF05811F965F9F0094462E /* BaseUIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIService.swift; sourceTree = "<group>"; };
+		76CF05831F973AFF0094462E /* Plant Tagger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Plant Tagger.entitlements"; sourceTree = "<group>"; };
+		76D56BF31F97459700542B33 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		76E55E991F5A67C000AF4B4E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		76E55E9B1F63DDFE00AF4B4E /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		76E55E9D1F6401C300AF4B4E /* RegistrationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
+		76F5E2841F7AAB0600D887DC /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		76F5E2861F8A571400D887DC /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		B7D9858278A867DAFCA64C92 /* Pods-Plant TaggerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant TaggerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plant TaggerTests/Pods-Plant TaggerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4C8B79465DBE7A4DD727ECF /* Pods-Plant Tagger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant Tagger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plant Tagger/Pods-Plant Tagger.release.xcconfig"; sourceTree = "<group>"; };
+		C5C5B24120A374CF3DCA0FE2 /* Pods_Plant_Tagger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plant_Tagger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CAC4D02C66935E9FE2E2E0 /* Pods-Plant TaggerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant TaggerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plant TaggerUITests/Pods-Plant TaggerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D77C48393D1320DF0FDB5D24 /* Pods-Plant TaggerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plant TaggerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plant TaggerUITests/Pods-Plant TaggerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766A50C21EDEB3FC00FE9F79 /* Pods_Plant_Tagger.framework in Frameworks */,
+				274EF9C87CF26FE4A66E7376 /* Pods_Plant_Tagger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451107E1BD94F4EFDCCD33A0 /* Pods_Plant_TaggerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +126,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1B0E8B1F58FA77D34C1204 /* Pods_Plant_TaggerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58C35528F95BC8E0B0103DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5B24120A374CF3DCA0FE2 /* Pods_Plant_Tagger.framework */,
+				2CEC08DE66F285E5B6F6C251 /* Pods_Plant_TaggerTests.framework */,
+				04766D8806E26528BE7E9661 /* Pods_Plant_TaggerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7634FF761FC47327008FF6FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7634FF771FC47481008FF6FA /* UIImageExtension.swift */,
+				7634FF791FC58699008FF6FA /* DictionaryExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		766A50861ED9D23B00FE9F79 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +159,8 @@
 				766A50A61ED9D23B00FE9F79 /* Plant TaggerTests */,
 				766A50B11ED9D23B00FE9F79 /* Plant TaggerUITests */,
 				766A50901ED9D23B00FE9F79 /* Products */,
+				7B32AD38017D39577FF775DE /* Pods */,
+				58C35528F95BC8E0B0103DAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +177,25 @@
 		766A50911ED9D23B00FE9F79 /* Plant Tagger */ = {
 			isa = PBXGroup;
 			children = (
+				7634FF761FC47327008FF6FA /* Extensions */,
+				76CF05831F973AFF0094462E /* Plant Tagger.entitlements */,
+				766A50C01EDEA7EC00FE9F79 /* GoogleService-Info.plist */,
 				766A50921ED9D23B00FE9F79 /* AppDelegate.swift */,
-				766A50941ED9D23B00FE9F79 /* ViewController.swift */,
+				766A50941ED9D23B00FE9F79 /* SignUpViewController.swift */,
 				766A50961ED9D23B00FE9F79 /* Main.storyboard */,
 				766A50991ED9D23B00FE9F79 /* Assets.xcassets */,
 				766A509B1ED9D23B00FE9F79 /* LaunchScreen.storyboard */,
 				766A509E1ED9D23B00FE9F79 /* Info.plist */,
+				76E55E991F5A67C000AF4B4E /* LoginViewController.swift */,
+				76E55E9B1F63DDFE00AF4B4E /* DesignableTextView.swift */,
+				76E55E9D1F6401C300AF4B4E /* RegistrationService.swift */,
+				76F5E2841F7AAB0600D887DC /* BaseAPI.swift */,
+				76F5E2861F8A571400D887DC /* AuthenticationService.swift */,
+				76CF05811F965F9F0094462E /* BaseUIService.swift */,
+				76D56BF31F97459700542B33 /* BaseUIViewController.swift */,
+				7634FF701FB6F78F008FF6FA /* UserService.swift */,
+				7634FF721FB9F56A008FF6FA /* MyPageViewController.swift */,
+				7634FF741FBD7342008FF6FA /* PlantTableViewCell.swift */,
 			);
 			path = "Plant Tagger";
 			sourceTree = "<group>";
@@ -125,6 +218,19 @@
 			path = "Plant TaggerUITests";
 			sourceTree = "<group>";
 		};
+		7B32AD38017D39577FF775DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BE69722CEACCCE3E48D387F /* Pods-Plant Tagger.debug.xcconfig */,
+				C4C8B79465DBE7A4DD727ECF /* Pods-Plant Tagger.release.xcconfig */,
+				664257C726A2B8F697C38C00 /* Pods-Plant TaggerTests.debug.xcconfig */,
+				B7D9858278A867DAFCA64C92 /* Pods-Plant TaggerTests.release.xcconfig */,
+				D77C48393D1320DF0FDB5D24 /* Pods-Plant TaggerUITests.debug.xcconfig */,
+				C9CAC4D02C66935E9FE2E2E0 /* Pods-Plant TaggerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766A50B71ED9D23B00FE9F79 /* Build configuration list for PBXNativeTarget "Plant Tagger" */;
 			buildPhases = (
+				8E1D5AAE2A5909D2789BF895 /* [CP] Check Pods Manifest.lock */,
 				766A508B1ED9D23B00FE9F79 /* Sources */,
 				766A508C1ED9D23B00FE9F79 /* Frameworks */,
 				766A508D1ED9D23B00FE9F79 /* Resources */,
+				940D6385852273B1580A9897 /* [CP] Embed Pods Frameworks */,
+				C933635CF9922933ED6DE798 /* [CP] Copy Pods Resources */,
+				766A50C41EDEB3FC00FE9F79 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766A50BA1ED9D23B00FE9F79 /* Build configuration list for PBXNativeTarget "Plant TaggerTests" */;
 			buildPhases = (
+				6AF64A14A9EB59510BCE9011 /* [CP] Check Pods Manifest.lock */,
 				766A509F1ED9D23B00FE9F79 /* Sources */,
 				766A50A01ED9D23B00FE9F79 /* Frameworks */,
 				766A50A11ED9D23B00FE9F79 /* Resources */,
+				2F970109E39BB21AB4299AA7 /* [CP] Embed Pods Frameworks */,
+				D6D36C46D20D1DE2303C0D08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766A50BD1ED9D23B00FE9F79 /* Build configuration list for PBXNativeTarget "Plant TaggerUITests" */;
 			buildPhases = (
+				2C7BA871868BC1FA9A4EBA56 /* [CP] Check Pods Manifest.lock */,
 				766A50AA1ED9D23B00FE9F79 /* Sources */,
 				766A50AB1ED9D23B00FE9F79 /* Frameworks */,
 				766A50AC1ED9D23B00FE9F79 /* Resources */,
+				4C593E235BC8973990B5C547 /* [CP] Embed Pods Frameworks */,
+				AF2457133DA4DFFC89FA58BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +309,13 @@
 				TargetAttributes = {
 					766A508E1ED9D23B00FE9F79 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T57TGR2ZF3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					766A50A21ED9D23B00FE9F79 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -233,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				766A509D1ED9D23B00FE9F79 /* LaunchScreen.storyboard in Resources */,
+				766A50C11EDEA7EC00FE9F79 /* GoogleService-Info.plist in Resources */,
 				766A509A1ED9D23B00FE9F79 /* Assets.xcassets in Resources */,
 				766A50981ED9D23B00FE9F79 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +377,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C7BA871868BC1FA9A4EBA56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F970109E39BB21AB4299AA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plant TaggerTests/Pods-Plant TaggerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C593E235BC8973990B5C547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plant TaggerUITests/Pods-Plant TaggerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF64A14A9EB59510BCE9011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1D5AAE2A5909D2789BF895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		940D6385852273B1580A9897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plant Tagger/Pods-Plant Tagger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2457133DA4DFFC89FA58BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plant TaggerUITests/Pods-Plant TaggerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C933635CF9922933ED6DE798 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plant Tagger/Pods-Plant Tagger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D36C46D20D1DE2303C0D08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plant TaggerTests/Pods-Plant TaggerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		766A508B1ED9D23B00FE9F79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766A50951ED9D23B00FE9F79 /* ViewController.swift in Sources */,
+				76CF05821F965F9F0094462E /* BaseUIService.swift in Sources */,
+				7634FF751FBD7342008FF6FA /* PlantTableViewCell.swift in Sources */,
+				76F5E2871F8A571400D887DC /* AuthenticationService.swift in Sources */,
+				76E55E9A1F5A67C000AF4B4E /* LoginViewController.swift in Sources */,
+				76E55E9E1F6401C300AF4B4E /* RegistrationService.swift in Sources */,
+				76E55E9C1F63DDFE00AF4B4E /* DesignableTextView.swift in Sources */,
+				76F5E2851F7AAB0600D887DC /* BaseAPI.swift in Sources */,
+				7634FF731FB9F56A008FF6FA /* MyPageViewController.swift in Sources */,
+				7634FF711FB6F78F008FF6FA /* UserService.swift in Sources */,
+				7634FF7A1FC58699008FF6FA /* DictionaryExtension.swift in Sources */,
+				7634FF781FC47481008FF6FA /* UIImageExtension.swift in Sources */,
+				76D56BF41F97459700542B33 /* BaseUIViewController.swift in Sources */,
+				766A50951ED9D23B00FE9F79 /* SignUpViewController.swift in Sources */,
 				766A50931ED9D23B00FE9F79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,11 +685,15 @@
 		};
 		766A50B81ED9D23B00FE9F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE69722CEACCCE3E48D387F /* Pods-Plant Tagger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Plant Tagger/Plant Tagger.entitlements";
+				DEVELOPMENT_TEAM = T57TGR2ZF3;
 				INFOPLIST_FILE = "Plant Tagger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Plant-Tagger.Plant-Tagger";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secy.planttagger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,11 +701,15 @@
 		};
 		766A50B91ED9D23B00FE9F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C8B79465DBE7A4DD727ECF /* Pods-Plant Tagger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Plant Tagger/Plant Tagger.entitlements";
+				DEVELOPMENT_TEAM = T57TGR2ZF3;
 				INFOPLIST_FILE = "Plant Tagger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Plant-Tagger.Plant-Tagger";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secy.planttagger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -436,6 +717,7 @@
 		};
 		766A50BB1ED9D23B00FE9F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664257C726A2B8F697C38C00 /* Pods-Plant TaggerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +732,7 @@
 		};
 		766A50BC1ED9D23B00FE9F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D9858278A867DAFCA64C92 /* Pods-Plant TaggerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +747,7 @@
 		};
 		766A50BE1ED9D23B00FE9F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77C48393D1320DF0FDB5D24 /* Pods-Plant TaggerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Plant TaggerUITests/Info.plist";
@@ -477,6 +761,7 @@
 		};
 		766A50BF1ED9D23B00FE9F79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CAC4D02C66935E9FE2E2E0 /* Pods-Plant TaggerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Plant TaggerUITests/Info.plist";
@@ -507,6 +792,7 @@
 				766A50B91ED9D23B00FE9F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		766A50BA1ED9D23B00FE9F79 /* Build configuration list for PBXNativeTarget "Plant TaggerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +801,7 @@
 				766A50BC1ED9D23B00FE9F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		766A50BD1ED9D23B00FE9F79 /* Build configuration list for PBXNativeTarget "Plant TaggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +810,7 @@
 				766A50BF1ED9D23B00FE9F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
