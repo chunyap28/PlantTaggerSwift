@@ -1,0 +1,36 @@
+USER
+user registration - POST /user
+update user profile - POST /user  (check token)
+get user profile - GET /user
+[ADMIN ONLY]
+get user profile by id - GET /user/{id}
+get user list - GET /users
+
+USER'S IMAGE
+get profile image - GET /user/image
+save profile image - POST /user/image
+
+ACCOUNT
+reset or change password - POST /account
+
+AUTH
+login - POST /auth
+refresh - POST /auth/{refresh_token}
+logout - DELETE /auth
+
+PLANT
+get all plant - GET /user/plants
+get plant by id - GET /user/plant/{id}
+get plant profile image - GET /user/plant/{id}/profile-image
+get plant image by id - GET /user/plant/{id}/image/{id}
+add plant image - POST /user/plant/{id}/image
+add new plant - POST /user/plant
+update plant - POST /user/plant/{id}
+delete plant - DELETE /user/plant/{id}
+
+[ADMIN ONLY]
+get all plant of user by id - GET /user/{user_id}/plants
+get plant by id of user by id - GET /user/{user_id}/plant/{plant_id}
+
+
+

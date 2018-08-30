@@ -33,15 +33,23 @@ class UserService: BaseAPI {
                                 onFailureCallback: onFailureCallback)
     }
     
-    func getProfileImage(onSuccessCallback: ((_ response: User) -> Void)?,
+    func getProfileImage(onSuccessCallback: ((_ image: UIImage) -> Void)?,
                          onFailureCallback: ((_ error: String) -> Void)? = nil)
     {
-        self._callGetProfileAPI(onSuccessCallback: { response in
-            let user = User(
-                id: response["uuid"].string!,
-                name: response["name"].string!,
-                email: response["email"].string!)
-            onSuccessCallback!(user)
+        self.getRequest(uri: "user/image", onSuccessCallback: { response in
+            let encodedData = response["profileImage"].string
+            
+            if encodedData == nil{
+                onFailureCallback?("No Data Found")
+            }
+            else if let decodedData = Data(base64Encoded: encodedData!, options: .ignoreUnknownCharacters)
+            {
+                let image = UIImage(data: decodedData)
+                onSuccessCallback!(image!)
+            }
+            else{
+                onFailureCallback?("Unknown Error")
+            }
         },
                                 onFailureCallback: onFailureCallback)
     }

@@ -7,24 +7,20 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class MyPageViewController: UIViewController {
 
     var user : UserService.User!
     
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var profileImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if( user == nil )
-        {
-            let userServ = UserService()
-            userServ.getProfile(onSuccessCallback: { user in
-                self.user = user
-            })
-        }
-        self.nameLabel.text = self.user?.name
         // Do any additional setup after loading the view.
+        _loadProfile()
+        _loadProfileImage()
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +31,10 @@ class MyPageViewController: UIViewController {
     @IBAction func onLogoutRequested(_ sender: Any) {
         let authServ = AuthenticationService()
         authServ.logout()
+        
+        let loginManager = FBSDKLoginManager()
+        loginManager.logOut()
+        _moveToLoginInPage()
     }
 
     /*
@@ -49,6 +49,36 @@ class MyPageViewController: UIViewController {
     
     private func _loadProfileImage()
     {
-        
+        DispatchQueue.global().async {
+            let userServ = UserService()
+            userServ.getProfileImage(onSuccessCallback: { image in
+                DispatchQueue.main.async(execute: {
+                    self.profileImage.image = image
+                })
+            })
+        }
+    }
+
+    private func _moveToLoginInPage()
+    {
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let ptTabBar = self.storyboard?.instantiateViewController(withIdentifier: "ptSignInController") as! UINavigationController
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController = ptTabBar
+    }
+    
+    private func _loadProfile()
+    {
+        if( user == nil )
+        {
+            let userServ = UserService()
+            userServ.getProfile(onSuccessCallback: { user in
+                self.user = user
+                self.nameLabel.text = self.user?.name
+            })
+        }
+        else{
+            self.nameLabel.text = self.user?.name
+        }
     }
 }

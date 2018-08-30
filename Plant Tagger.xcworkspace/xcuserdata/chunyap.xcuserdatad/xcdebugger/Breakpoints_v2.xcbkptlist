@@ -214,7 +214,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Plant Tagger/AppDelegate.swift"
@@ -225,177 +225,6 @@
             endingLineNumber = "130"
             landmarkName = "_moveToLoggedInPage(user:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Plant Tagger/MyPageViewController.swift"
-            timestampString = "532281222.404746"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "MyPageViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.user.getter : Swift.ImplicitlyUnwrappedOptional&lt;Plant_Tagger.UserService.User&gt;"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.350388"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "181">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.user.setter : Swift.ImplicitlyUnwrappedOptional&lt;Plant_Tagger.UserService.User&gt;"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.352787"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "470">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Plant_Tagger.MyPageViewController"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.354975"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "225">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Plant_Tagger.MyPageViewController&gt;"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.356962"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "142">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Plant Tagger/MyPageViewController.swift"
-            timestampString = "532281265.769823"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "MyPageViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.__deallocating_deinit"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.364"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Plant_Tagger.MyPageViewController"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.366213"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "225">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Plant_Tagger.MyPageViewController"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.368214"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "23">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Plant_Tagger.MyPageViewController&gt;"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.370228"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Plant_Tagger.MyPageViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Plant_Tagger.MyPageViewController&gt;"
-                  moduleName = "Plant Tagger"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chunyap/Google%20Drive/project/Plant%20Tagger/Plant%20Tagger/MyPageViewController.swift"
-                  timestampString = "533211406.372187"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "142">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -417,31 +246,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Plant Tagger/MyPageViewController.swift"
-            timestampString = "533204647.098679"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Plant Tagger/UserService.swift"
-            timestampString = "533311311.480885"
+            timestampString = "534500342.545654"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "_callGetProfileAPI(onSuccessCallback:onFailureCallback:)"
             landmarkType = "7">
          </BreakpointContent>
